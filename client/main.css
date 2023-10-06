@@ -1,0 +1,114 @@
+.block1 {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block1 .menu {
+width: 200px;
+}
+
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #7b7b7d;
+    font-size: 1.125em;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+
+}
+
+.block1 .menu a:hover,
+.block1 .menu a.active {
+color: #ffffff;
+font-weight: bold;
+background-color: #db0957;
+padding: 12px 25px;
+border-radius: 20px;
+}
+
+.block1 .items {
+    padding-left: 25px;
+    
+}
+
+.block1 .items .sort {
+    margin-bottom: 25px;
+}
+
+.block1 .items .sort p {
+    color: #444444;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.block1 .items .sort p a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    width: 65px;
+    background: url(/images/main/up_icon.png) no-repeat;
+    background-position: 130% 50%;
+}
+.block1 .items .sort p a:hover,
+.block1 .items .sort p a.active{
+    background: url(/images/main/down_icon.png) no-repeat;
+    color: #db0957;
+    font-weight: 600;
+    background-position: 130% 50%;
+}
+
+.block1 .items .boxes {
+    flex-wrap: wrap;
+}
+
+.block1 .items .boxes .box {
+    margin-bottom: 28px;
+}
+
+.box figure figcaption {
+    padding-left: 23px;
+    color: #4b4b4e;
+}
+
+.box figure figcaption p span {
+    font-size: 1.250em;
+    font-weight: 600;
+}
+
+.box figure figcaption p {
+    font-size: 0.938em;
+}
+
+.box .title {
+    color: #4b4b4e;
+    font-size: 0.875em;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.box button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #db0957;
+    color: white;
+    margin-top: 15px;
+    border: none;
+}
+
+.box button:hover {
+    cursor: pointer;
+}
+
+.block1 .items .pagination a {
+    margin: 0 20px;
+    color: #686868;
+}
+
+.block1 .items .pagination a:hover,
+.block1 .items .pagination a:active {
+    color: #db0957;
+    font-weight: 900;
+}

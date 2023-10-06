@@ -1,0 +1,150 @@
+@media screen and (max-width: 1199px){
+
+    header form div {
+        width: 210px;
+    }
+    
+    footer .left figure {
+        margin-left: 40px;
+    }
+
+    footer .right form div {
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+
+    header > .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header > .container > img {
+        margin-right: 35px;
+    }
+
+    header > .container form {
+        margin-right: 20px;
+    }
+
+    header > .container form, header > .container .cart {
+        margin-top: 15px;
+    }
+
+    header form div {
+        width: 340px;
+    }
+
+    footer .right form div {
+        width: 260px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+
+    header .menu {
+        margin: 15 px 0;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+    }
+
+    footer .right {
+        margin: 20px auto 0;
+    }
+
+    footer .copyrights {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    header form div {
+        width: 250px;
+    }
+
+    header > .container > img {
+        margin-right: 130px;
+    }
+    
+    header > .container .cart {
+        width: 170px;
+    }
+
+    header .burgerIcon {
+        display: inline-block;
+    }
+
+    header .container .menu {
+        display: none
+    }
+
+    header .container .menu a {
+        margin: 0 10px;
+        display: block;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    header .container .menu a:hover, header .container .menu a.active {
+        border: none;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        padding: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 518px){
+
+    header form div input[type='text'] {
+        border:none;
+        margin-right: 10px;
+        width: 115px;
+    }
+    
+    header form div {
+        width: 183px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+    header > .container form, header > .container .cart {
+        margin-top: 17px;
+    }
+
+    footer .left nav {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    
+    header form {
+        margin-right: 0!important;
+    }
+
+    footer .left {
+        display: block;
+    }
+
+    footer .left figure {
+        text-align: center;
+    }
+
+    footer .left figure figcaption {
+        width: auto;
+    }
+
+    footer .left nav {
+        margin-top: 45px;
+    }
+
+}
